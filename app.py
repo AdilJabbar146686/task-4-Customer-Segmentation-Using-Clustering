@@ -4,7 +4,7 @@ import pickle
 
 # ------------------------
 # Load the saved pkl models
-with open('mkmeans_model.pkl', 'rb') as model_file:
+with open('kmeans_model.pkl', 'rb') as model_file:
     kmeans = pickle.load(model_file)
 
 with open('scaler.pkl', 'rb') as scaler_file:
